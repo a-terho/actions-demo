@@ -30,4 +30,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/actions-demo:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/actions-demo:latest
